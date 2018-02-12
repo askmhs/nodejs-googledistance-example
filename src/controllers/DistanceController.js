@@ -3,7 +3,7 @@ import distance from 'google-distance';
 export class DistanceController {
 
 	constructor(origin, destination, mode = 'driving') {
-		distance.apiKey = 'AIzaSyAQbw3VU6bks16h_GwHGroVQf2r82JZvxI';
+		distance.apiKey = 'YOUR_API_KEY'; // You can ignore this and remove this line
 
 		this._mode = mode;
 		this._origin = origin;
