@@ -1,8 +1,5 @@
 import restify from 'restify';
 
-require("babel-core/register");
-require("babel-polyfill");
-
 const server = restify.createServer({
 	name: 'nodejs-googledistance-example'
 });
