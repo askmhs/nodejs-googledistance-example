@@ -173,12 +173,12 @@ distance.businessClientKey = 'CLIENT_KEY';
 distance.businessSignatureKey = 'SIGNATURE_KEY';
 ```
 
-## Running Tests
+## Running Application
 
 1) Install the development dependencies:
 
     npm install
 
-2) Run the tests:
+2) Run the application:
 
-    npm test
+    npm start
