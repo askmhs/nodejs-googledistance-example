@@ -1,0 +1,66 @@
+{
+	"info": {
+		"name": "Node.js Google Distance Example",
+		"_postman_id": "21986bb0-9ed1-c9a9-56ea-e5a2410ddd0f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "By Location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"origin\": \"Jakarta\",\n\t\"destination\": \"Bandung\",\n\t\"mode\": \"walking\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/location",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"location"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "By Coordinates",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"origin\": [-6.1753871, 106.8249641],\n\t\"destination\": [-6.2656321, 106.8760519],\n\t\"mode\": \"walking\"\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/coordinates",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"coordinates"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
