@@ -16,12 +16,12 @@
   "author": "Muhammad Harits Syaifulloh",
   "license": "ISC",
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "google-distance": "^1.0.1",
-    "restify": "^6.3.4"
+    "restify": "^8.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0"
+    "babel-core": "^6.26.3"
   }
 }
